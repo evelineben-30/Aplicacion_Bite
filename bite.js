@@ -41,7 +41,7 @@ function triggerAnalysis() {
     document.getElementById('analysis-title').innerText = "Analizando comida...";
     document.getElementById('spinner').classList.remove('hidden');
 
-    // Simulación del tiempo de procesamiento de la IA (3 segundos)
+    // Simulación del tiempo de procesamiento de la IA
     setTimeout(() => {
         document.getElementById('spinner').classList.add('hidden');
         document.getElementById('analysis-title').innerText = "¡Procesado con éxito!";
